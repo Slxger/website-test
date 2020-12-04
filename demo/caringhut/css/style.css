@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800');
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
+html, body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #DAEAF4;
+}
+
+.main-bg, .primary-bg {
+    background-color: #532EE7 !important;
+}
+
+.main-text, .primary-text {
+    color: #532EE7 !important;
+}
+
+.main-btn, .btn-primary {
+    text-transform: inherit !important;
+    font-weight: 600;
+    padding: 14px 24px !important;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+.btn-lg.btn-primary, .btn-lg.main-btn {
+    padding: 16px 32px !important;
+    border-radius: 6px;
+    font-size: 20px;
+    margin-left: 0 !important;
+}
+
+.navbar-brand {
+    font-family: 'Pacifico', cursive !important;
+    font-size: 32px;
+}
+
+#main {
+    height: 100vh !important;
+}
+
+.display-3 {
+    font-size: 75px !important;
+}
+
+.main-para {
+    margin-top: 32px;
+    font-size: 28px !important;
+    font-weight: 400;
+}
+
+section#clouds {
+    background-color: #532EE7;
+    width: 100%;
+    margin-top: 225px;
+    position: relative;
+}
+
+.cloud-img {
+    width: 100%;
+    margin-top: -272px;
+}
+
+.cloud-img2 {
+    width: 100%;
+    position: absolute;
+    bottom: -175px;
+    left: 0;
+    right: 0;
+    z-index: -10;
+}
+
+.cloud-container {
+    margin-top: -272px;
+}
+
+.img-fluid2 {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto !important;
+    display: block;
+}
+
+.inner-cloud {
+    background-color: #222A68;
+    margin-top: -48px;
+    padding: 0 32px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.inner-cloud h3 {
+    font-weight: 400;
+}
+
+.img-fluid {
+    width: 100%;
+    zoom: 132%;
+}
+
+.inner-cloud p {
+    color: #f3f3f3;
+    margin-top: 18px !important;
+    font-size: 17px;
+}
+
+.card {
+    margin-top:  32px;
+    border-radius: 20px;
+}
+
+section#footer {
+    margin-top: 250px;
+    padding: 0 128px;
+}
